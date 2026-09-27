@@ -33,3 +33,27 @@ body { margin: 0; background: #f6f8fb; color: #1f2937; }
 .link { border: none; background: none; color: var(--brand); cursor: pointer; padding: 0; }
 .page-foot { display: flex; justify-content: space-between; margin-top: 8px; font-size: 12px; color: var(--muted); }
 .error-text { color: #b42318; }
+.identity-bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 8px 12px; margin-bottom: 12px; font-size: 13px; }
+.identity-bar select, .identity-bar input { border: 1px solid var(--border); border-radius: 6px; padding: 4px 8px; font-size: 13px; }
+.identity-hint { color: var(--muted); font-size: 12px; }
+.filter-item select { border: 1px solid var(--border); border-radius: 6px; padding: 4px 8px; font-size: 13px; }
+.badge { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 12px; border: 1px solid var(--border); background: #f1f5f9; color: var(--muted); }
+.badge.on { background: #e7f6ec; color: #18794e; border-color: #b7e4c7; }
+.badge.revoked { background: #fef3f2; color: #b42318; border-color: #fecdca; }
+.notice { padding: 8px 12px; border-radius: 6px; font-size: 13px; margin: 0 0 12px; }
+.notice.ok { background: #e7f6ec; color: #18794e; }
+.notice.err { background: #fef3f2; color: #b42318; }
+.modal-mask { position: fixed; inset: 0; background: rgba(15, 23, 42, 0.45); display: flex; align-items: center; justify-content: center; z-index: 20; }
+.modal-card { background: #fff; border-radius: 10px; padding: 20px; width: 420px; max-width: 92vw; }
+.modal-card h3 { margin-top: 0; }
+.form-item { display: block; margin-bottom: 10px; }
+.form-item span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.form-item input, .form-item textarea { width: 100%; border: 1px solid var(--border); border-radius: 6px; padding: 6px 8px; font-size: 13px; }
+.form-hint { font-size: 12px; color: var(--muted); }
+.modal-actions { display: flex; gap: 8px; justify-content: flex-end; margin-top: 12px; }
+.detail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; margin-bottom: 12px; }
+.detail-item { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px; }
+.detail-item span { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+.section-title { font-size: 14px; margin: 12px 0 8px; }
+.attendee-list { background: #fff; border: 1px solid var(--border); border-radius: 8px; padding: 10px 12px 10px 32px; margin: 0; font-size: 13px; }
+.detail-actions { margin-top: 12px; }

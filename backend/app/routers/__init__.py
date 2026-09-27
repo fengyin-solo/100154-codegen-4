@@ -24,5 +24,6 @@ from app.routers import service as router_service
 from app.routers import contract as router_contract
 from app.routers import settlement as router_settlement
 from app.routers import training as router_training
+from app.routers import visitor as router_visitor
 
-ROUTERS = [router_station, router_sensor, router_observation, router_quality, router_calibration, router_transmission, router_power, router_layout, router_inspection, router_fault, router_sparepart, router_metainfo, router_alarm, router_comm, router_service, router_contract, router_settlement, router_training]
+ROUTERS = [router_station, router_sensor, router_observation, router_quality, router_calibration, router_transmission, router_power, router_layout, router_inspection, router_fault, router_sparepart, router_metainfo, router_alarm, router_comm, router_service, router_contract, router_settlement, router_training, router_visitor]
