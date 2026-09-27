@@ -244,3 +244,15 @@ class TrainingEntry(BaseModel):
     field_5: str | None = None  # 考核成绩
     field_6: str | None = None  # 培训日期
     field_7: str | None = None  # 培训状态
+
+class VisitorEntry(BaseModel):
+    """外来人员进站许可明细结构（门禁授权由后端按状态与授权开关派生）。"""
+
+    field_0: str | None = None  # 许可编号
+    field_1: str | None = None  # 来访单位
+    field_2: str | None = None  # 进站事由
+    field_3: str | None = None  # 进站开始
+    field_4: str | None = None  # 进站结束
+    field_5: list[str] | None = None  # 随行人员
+    field_6: str | None = None  # 登记人
+    field_7: str | None = None  # 门禁授权
